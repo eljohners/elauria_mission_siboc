@@ -1,0 +1,32 @@
+{
+  "name": "Mang Juans Milktea",
+  "short_name": "Mang Juan Milktea",
+  "icons": [{
+    "src": "logo/logo-60.png",
+      "sizes": "60x60",
+      "type": "image/png",
+      "purpose": "any maskable"
+      
+    }, {
+      "src": "logo/logo-90.png",
+      "sizes": "90x90",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }, {
+      "src": "logo/logo-100.png",
+      "sizes": "100x100",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+    , {
+      "src": "logo/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }],
+  "lang": "en-US",
+  "start_url": "/index.php",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "green"
+}

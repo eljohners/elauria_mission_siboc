@@ -1,0 +1,82 @@
+@import url(//db.onlinewebfonts.com/c/4f6fb2fa3c231278167b36e966718cbb?family=Uni+Sans+Heavy);
+@font-face {font-family: "Uni Sans"; src: url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.eot"); src: url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.woff") format("woff"), url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.svg#Uni Sans Heavy") format("svg"); }
+*{margin: 0; padding: 0;}
+body
+{
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: 'Uni Sans';
+    background-image: url("admin.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  form
+  {
+    padding-top: 30px;
+    text-align: center;
+    width: 30%;
+    background-color:#36393F;
+    border-radius: 15px;
+    margin: 2% 35% 0% 35%;
+  }
+
+  #logo
+  {
+    width: 50%;
+    padding-bottom: 5%;
+  }
+   #sign
+   {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #B9BBBE;
+    margin-bottom: 10px;
+    margin-right: 20%;
+    }
+    #welcome
+    {
+    font-size: 50px;
+    }
+    .tb1{
+    background-color : #313339;
+    color: #B9BBBE;
+    border: 1px solid #222428;
+    height: 40px;
+    border-radius: 5px;
+    width: 50%;
+    }
+    .tb2{
+    margin-top: 10px;
+    background-color : #84DFFF;
+    color: black;
+    font-weight: bolder;
+    border: 1px solid #222428;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 2%;
+
+    width: 25%;
+}
+@media only screen and (max-width: 1025px)
+{
+      body
+    {
+    height: auto;
+    }
+  form
+  {
+    text-align: center;
+    height: auto;
+    padding: 15px;
+    width: 80%;
+    background-color:#36393F;
+    border-radius: 15px;
+    margin: 5% 8% 0% 8%;
+  }
+
+}
+
+

@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.navbar-style
+{
+	text-transform: uppercase;
+	background-color: #008037;
+}
+
+.logo
+{
+	height: 100px;
+	padding: 2px 0px;
+	display: inline;
+
+}
+
+.icon-bar
+{
+	background: white;
+
+
+}
+
+li a
+{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+#logout
+{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	border: none;
+	background-color: #008037;
+}
+li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: white;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+li a:hover::after,
+li a:focus::after {
+
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+li a:hover
+{
+	background: none !important;
+	color: white;
+	transition: 0.5s;
+}
+
+
+.big-text
+{
+	font-size: 52px;
+	margin: 20px 0;
+	color: steelblue;
+}
+
+a.btn
+{
+	
+	width: 150px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+#h3
+{
+  position: absolute;
+  left: 20%;
+  top: 20px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+#h3:hover
+{
+background-color: none !important;
+
+}
+#micon
+{
+
+	margin-top: 12px;
+	margin-left: 1px;
+	margin-right: 1%;
+
+}
+/* end of nav */
+/*---------------end of nav--------------------*/
+body
+{
+	overflow-x: hidden;
+}
+#wholetable
+{
+	overflow-x:scroll;
+	width: 98%;
+	margin: 1%;
+}
+.table
+{
+    background-color: limegreen;
+    margin:  5px 0px;
+    border: 2px solid black;
+    font-family: 'Uni Sans';
+    width: 100%;
+    height: 150px;
+
+  border-collapse: collapse;
+  border-spacing: 0;
+
+}
+#th
+{
+	border: black solid 2px;
+    background-color: #D8D2CB;
+    font-family: 'Uni Sans';
+    padding: 20px 20px;
+    text-align: center;
+
+      text-align: left;
+  padding: 8px;
+}
+#th3
+{
+	padding: 15px 5px 15px 5px;
+	height: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	border: solid 2px blue;
+
+	  text-align: left;
+  padding: 8px;
+}
+
+#th4
+{
+	
+	padding: 15px 5px 15px 5px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border: solid 2px black;
+	max-height: 100px;
+  width: 10;
+	text-overflow: ellipsis;
+}
+
+#button
+{
+
+	width: 70%;
+	margin-right: 17%;
+	margin-left: 17%;
+}
+#button2
+{
+	background-color: blue;
+	width: 70%;
+	margin-right: 17%;
+	margin-left: 17%;
+	border: black solid 2px;
+
+}
+#th3
+{
+	padding: 15px 5px 15px 5px;
+	height: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border: solid 2px black;
+	overflow-y: scroll;
+	width: 350px;
+}
+#deliver
+{
+	width: 20%;
+	border: black solid 2px;
+}
+#img_milktea
+{
+	width: 100px;
+}

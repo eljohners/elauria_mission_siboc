@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar-style
+{
+  text-transform: uppercase;
+  background-color: #008037;
+}
+
+.logo
+{
+  height: 100px;
+  padding: 2px 0px;
+  display: inline;
+
+}
+
+.icon-bar
+{
+  background: white;
+
+
+}
+
+li a
+{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+#logout
+{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: #008037;
+}
+li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: white;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+li a:hover::after,
+li a:focus::after {
+
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+li a:hover
+{
+  background: none !important;
+  color: white;
+  transition: 0.5s;
+}
+
+
+.big-text
+{
+  font-size: 52px;
+  margin: 20px 0;
+  color: steelblue;
+}
+
+a.btn
+{
+  
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#h3
+{
+  position: absolute;
+  left: 20%;
+  top: 20px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+#h3:hover
+{
+background-color: none !important;
+
+}
+#micon
+{
+
+  margin-top: 12px;
+  margin-left: 1px;
+  margin-right: 1%;
+
+}
+/* end of nav */
+#del{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+#customer
+{
+  background-color: white;
+  border: dashed red  5px;
+  width: 80%;
+  border-radius: 15px;
+  margin: 10px 2%;
+
+
+}
+
+#customer_details
+{
+  padding: 10px 30px;
+  font-size: 15px;
+}
+.table
+{
+  width: 100%;
+}
+#order
+{
+  overflow-x:scroll;
+  border-collapse: collapse;
+  background-color: white;
+  border:  black  5px;
+  margin: 10px 25px;
+  margin-left: 80px;
+
+}
+#order_details
+{
+
+  border: solid black  5px;
+  padding: 20px 10px;
+}
+#td
+{
+  border: solid black  5px;
+  padding: 10px 30px;
+  background-color: #D8D2CB;
+}
+#buy
+{
+  font-size: 25px;
+  color: white;
+  background-color: red;
+  width: 15%;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 55%;
+  margin-bottom: 50px;
+  cursor: pointer;
+
+}
+#buy:hover{
+  background-color:#FC4F4F;
+  color: white;
+
+}
+a
+{
+  text-decoration: none;
+  color: white;
+}

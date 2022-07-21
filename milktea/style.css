@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-style
+{
+    text-transform: uppercase;
+    background-color: #008037;
+}
+
+.logo
+{
+    height: 100px;
+    padding: 2px 0px;
+    display: inline;
+
+}
+
+.icon-bar
+{
+    background: white;
+
+
+}
+
+li a
+{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+#logout
+{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: #008037;
+}
+li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: white;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+li a:hover::after,
+li a:focus::after {
+
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+li a:hover
+{
+    background: none !important;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.big-text
+{
+    font-size: 52px;
+    margin: 20px 0;
+    color: steelblue;
+}
+
+a.btn
+{
+    
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#h3
+{
+  position: absolute;
+  left: 20%;
+  top: 20px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+#h3:hover
+{
+background-color: none !important;
+
+}
+#micon
+{
+
+    margin-top: 12px;
+    margin-left: 1px;
+    margin-right: 1%;
+
+}
+/* end of nav */
+#book
+{
+	border: solid black 2px;
+	border-radius: 50px;
+	padding: 10px;
+	width: 100%;
+	background-color: green;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	margin-bottom: 5%;
+}
+#maruya
+{
+
+	width: 100%;
+	margin: 2% 0;
+
+}
+.big-text
+{
+	font-size: 52px;
+	margin: 20px 0;
+	color: green;
+}
+
+
+
+
+/* For responsiveness sa tagalog maliit screen */
+@media only screen and (max-width: 1000px)
+ {
+
+
+ }

@@ -1,0 +1,264 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar-style
+{
+  text-transform: uppercase;
+  background-color: #008037;
+}
+
+.logo
+{
+  height: 100px;
+  padding: 2px 0px;
+  display: inline;
+
+}
+
+.icon-bar
+{
+  background: white;
+
+
+}
+
+li a
+{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+#logout
+{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: #008037;
+}
+li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: white;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+li a:hover::after,
+li a:focus::after {
+
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+li a:hover
+{
+  background: none !important;
+  color: white;
+  transition: 0.5s;
+}
+
+
+.big-text
+{
+  font-size: 52px;
+  margin: 20px 0;
+  color: steelblue;
+}
+
+a.btn
+{
+  
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#h3
+{
+  position: absolute;
+  left: 20%;
+  top: 20px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+#h3:hover
+{
+background-color: none !important;
+
+}
+#micon
+{
+
+  margin-top: 12px;
+  margin-left: 1px;
+  margin-right: 1%;
+
+}
+/* end of nav */
+
+/*--------------------FORM----------------------------*/
+.box 
+{
+  border: 1px solid black;
+  width:80%;
+  background-color: limegreen;
+  border-radius: 15px;
+  margin: 20px 9% 5% 9% ;
+}
+
+#header
+{
+  text-align: center;
+  color: black;
+}
+
+.fullname
+{
+  display: inline-block;
+  width: 100%;
+  margin: 20px 0% 10px 0%;
+}
+
+.firstname
+{
+  display: inline-block;
+  width: 48%;   
+}
+
+.lastname
+{
+  display: inline-block;
+  width: 48%;  
+}
+
+#fname
+{
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 90%;
+  height: 40px;
+   font-size: 25px;
+  background-color: white;
+}
+
+#lname
+{
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 90%;
+  height: 20px;
+  height: 40px;
+  font-size: 25px;
+  background-color: white;
+}
+
+#fn
+{
+  margin-left: 3%;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  background-color: limegreen;
+}
+
+#ln
+{
+  margin-left: 3%;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  background-color: limegreen;
+}
+
+.center
+{
+  width: 80%;
+  margin: 0 9% 0 9%;
+  text-align: center;
+}
+
+
+label
+ {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+ }
+
+ .address
+ {
+  width: 95%;
+  margin: 5px 2% 5px 2%;
+ }
+
+ #comment
+ {
+  width: 90%;
+  height: 100px;
+  margin: 0 4% 0 4%;
+  background-color: #ffffff;
+ }
+
+ #submit
+ {
+  width: 40%;
+  margin: 10px 28% 5% 28%;
+  background-color: lightskyblue;
+  border: lightskyblue solid 2px;
+  border-radius: 50px;
+  font-size: 25px;
+ }
+ 
+
+/*--------------------FOOTER---------------------*/
+footer
+{
+  background-color: #335272;
+}
+
+/*---------------Responsive------------*/
+@media(max-width: 1024px)
+{
+  #h3
+  {
+    display: none;
+  }
+.box
+{
+width: 90%;
+margin: 20px 4% 5% 4%;
+} 
+/*-----------------form------------------------*/
+.fullname
+{
+  width: 100%;
+}
+
+.firstname
+{
+  margin-left: 5%;
+  width: 90%; 
+}
+.lastname
+{
+  margin-left: 5%;
+  width: 90%;
+}
+
+#fname
+{
+  width: 90%;
+}
+#lname
+{
+  width: 90%;
+}
